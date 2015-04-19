@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Commercial.cs" />
+    <Compile Include="Entities\Episode.cs" />
+    <Compile Include="Entities\PlayList.cs" />
+    <Compile Include="Entities\Show.cs" />
+    <Compile Include="Entities\IShowable.cs" />
+    <Compile Include="PlayListBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
