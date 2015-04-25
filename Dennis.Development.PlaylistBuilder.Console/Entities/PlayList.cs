@@ -4,6 +4,6 @@ namespace Dennis.Development.PlaylistBuilder.Console.Entities
 {
     internal class PlayList
     {
-        public List<IShowable> Content { get; set; }
+        public List<List<IShowable>> Content { get; set; }
     }
 }

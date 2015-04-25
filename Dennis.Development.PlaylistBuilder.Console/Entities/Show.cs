@@ -8,6 +8,6 @@ namespace Dennis.Development.PlaylistBuilder.Console.Entities
 
         public string Name { get; set; }
 
-        public List<Episode> Episodes { get; set; }
+        public Queue<Episode> Episodes { get; set; }
     }
 }

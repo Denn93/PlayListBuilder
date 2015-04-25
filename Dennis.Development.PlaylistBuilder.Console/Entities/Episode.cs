@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace Dennis.Development.PlaylistBuilder.Console.Entities
+﻿namespace Dennis.Development.PlaylistBuilder.Console.Entities
 {
     internal class Episode : IShowable
     {
